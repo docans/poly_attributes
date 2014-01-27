@@ -1,0 +1,36 @@
+<?php
+
+/*
+ * @file
+ * Poly Attribute module.
+ *
+ * Provides the ability to use field tokens for ubercart attribute options.
+*
+*/
+
+/**
+  * Implement hook_help()
+ */ 
+
+ function poly_attributes_help($path, $arg) {
+ switch ($path) {
+ case 'admin/help#poly_attribute':
+   $output = '';
+   $output .= '<h3>' . t('About Poly Attribute') . '</h3>';
+   $output .= '<p>' . t("The Poly Attribute modules enable you to use tokens for replacement of attribute options hence making it attibut option dynamic") . '<p>';
+ return $output;
+   }
+ }
+
+/**
+  * Implement hook_form_alter()
+  * provides token support for ubercart attribute options
+  */ 
+ 
+ function poly_attribute_uc_attribute_uc_form_alter() {
+  
+}
+
+ function poly_attribute_custom_submit() {
+  
+}

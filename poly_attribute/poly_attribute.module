@@ -28,7 +28,7 @@
   */ 
  
  function poly_attribute_form_uc_attribute_uc_form_alter(&$form, &$form_state, $form_id) {
- dsm($form)
+ dsm($form);
   if (module_exists('token')) {
    $form['token_help'] = array(
      '#theme' => 'token_tree',

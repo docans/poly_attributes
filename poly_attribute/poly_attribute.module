@@ -12,7 +12,7 @@
   * Implement hook_help()
  */ 
 
- function poly_attributes_help($path, $arg) {
+ function poly_attribute_help($path, $arg) {
  switch ($path) {
  case 'admin/help#poly_attribute':
    $output = '';

@@ -28,8 +28,12 @@
   */ 
  
  function poly_attribute_form_uc_attribute_uc_form_alter(&$form, &$form_state, $form_id) {
-  
-  
+ 
+  if (module_exists('token')) {
+   $form['token_help'] = array(
+     '#theme' => 'token_tree',
+    '#token_types' => array('node'),
+  );
  }
  
  /** Original code from sites/all/modules/ubercart/uc_attribute/uc_attribute.module

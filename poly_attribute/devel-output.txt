@@ -1,0 +1,1 @@
+path /admin/store/products/attributes/5/options/6/edit

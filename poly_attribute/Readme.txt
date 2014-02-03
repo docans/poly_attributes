@@ -4,4 +4,4 @@ Reference is taken from http://clikfocus.com/blog/how-add-token-support-drupal-7
 
 Current Developers: Docans , Webstudiodelta
 
-for comment on this project please email me (Docans) at docansey@gmail.com
+for comment on this project please email me (Docans) at ocedo1@yahoo.com

@@ -27,7 +27,7 @@
   * provides token support for ubercart attribute options
   */ 
  
- function poly_attribute_form_uc_attribute_uc_form_alter(&$form, &$form_state, $form_id) {
+ function poly_attribute_uc_attribute_option_form_alter(&$form, &$form_state, $form_id) {
  dsm($form);
   if (module_exists('token')) {
    $form['token_help'] = array(
